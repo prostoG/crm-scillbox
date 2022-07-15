@@ -33,7 +33,7 @@
                 </h2>
             </div>
             <div class="table-container">
-                <table style="width: 100%;">
+                <table style="width: 100%; border-spacing: 0;">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -53,6 +53,14 @@
                             <th>3244254</th>
                             <th>delete</th>
                         </tr>
+                        <tr>
+                            <th class="table-item__id">1</th>
+                            <th class="table-item__fio">asfdf sadfds dsfdsf</th>
+                            <th>2134252</th>
+                            <th>23432423</th>
+                            <th>3244254</th>
+                            <th>delete</th>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -60,8 +68,26 @@
     </section>
 
     <section class="btn-block">
-        <div class="container">
+        <div class="container btn-container">
             <button class="btn__add-item">Добавить клиента</button>
+        </div>
+    </section>
+
+    <section class="popup">
+        <div class="popup-container">
+            <div class="popup__add-client">
+                <h2 class="popup__add-client-header">
+                    Новый клиент
+                </h2>
+                <form action="" class="popup__add-client-form">
+                    <input type="text" name="" id="" placeholder="Фамилия">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" name="" id="" placeholder="Отчество">
+                    <button>
+                        Сохранить
+                    </button>
+                </form>
+            </div>
         </div>
     </section>
 </body>

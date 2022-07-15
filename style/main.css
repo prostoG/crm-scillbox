@@ -3,6 +3,10 @@ body {
     background-color: #E5E5E5;
 }
 
+input {
+    outline: none;
+}
+
 
 
 
@@ -10,9 +14,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 25px;
-    width: 100%;
+    width: 1600px;
 }
-
+.header {
+    background-color: white;
+    height: 90px;
+    padding: 20px;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -33,17 +41,42 @@ body {
     font-size: 14px;
     border: 1px solid rgba(51, 51, 51, .2);
     padding-left: 17px;
-    
+}
+.header-input:focus,
+.header-input:hover,
+.header-input:active {
+    border: 1px solid #9873FF
 }
 
-
+.table {
+    margin-bottom: 40px;
+}
+.table-container {
+    display: flex;
+    
+}
 
 .table-content {
     background-color: white;
     border: none;
-    
+}
+.table-content tr {
+    border-bottom: 1px solid rgba(51, 51, 51, .2);
 }
 .table-item__id {
     border: none;
-    width: 60px;
+    
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.btn__add-item {
+    height: 45px;
+    width: 215px;
+    background-color: transparent;
+    border: 1px solid #9873FF;
+    color: #9873FF;
 }
